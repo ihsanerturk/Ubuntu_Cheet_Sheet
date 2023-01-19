@@ -1,0 +1,36 @@
+pwd		bulunduğun konum
+explorer.exe .   windows ta bulunduğu klasörü açar
+ls			klasördeki kullanıcının
+			oluşturduğu klasor/dosya vb.
+ls -a		tum dosya ve klasörler
+ls -l		kulanıcının oluşturduğu
+			klasor/dosya ayrıntılar
+ls -al	klasor/dosya tumu
+			ve ayrıntıları
+cd	klasorAdi		klasor degiştirme
+cd ..		bir üst klasöre geçme
+cd ~		home klasörüne geçiş
+cd /		root klasörüne geçiş
+mkdir	 klasorAdi 						klasör oluşturma
+mkdir  klasorAdi1 klasorAdi2 	birden fazla klasor aynı anada oluşturma	
+cd ./A/B1/C1	tek satırda birkaç klasor altına ulaşma
+cd A/B1/C1
+cd ../../		her iki nokta bir üst klasöre
+cd ../..
+rmdir	klasör_ismi klasörü siler
+rm
+rm -r
+touch
+echo
+cat filename
+cat >> filename
+head
+head -n satirsayisi
+tail
+tree
+sudo apt-get update
+apt-get install <package_name>
+cp
+mv
+find
+find -name
